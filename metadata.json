@@ -1,0 +1,10 @@
+{
+  "name": "Prajavani Grievance Portal",
+  "description": "Comprehensive administrative grievance portal featuring hierarchical routing (VRO to Collector), dynamic real-time reporting, and geospatial boundary mapping.",
+  "requestFramePermissions": [
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

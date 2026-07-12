@@ -1,0 +1,345 @@
+{
+  "citizens": [
+    {
+      "id": "cit-1",
+      "fullName": "Kalyan Kumar",
+      "email": "kalyan@gmail.com",
+      "mobile": "9440123456",
+      "aadhaar": "123456789012",
+      "address": "Brodipet 4th line, Guntur, Andhra Pradesh",
+      "passwordHash": "password123",
+      "preferredLanguage": "te",
+      "createdAt": "2026-06-01T08:00:00.000Z"
+    },
+    {
+      "id": "cit-2",
+      "fullName": "Venkata Ramanayya",
+      "email": "venkata@gmail.com",
+      "mobile": "9848123456",
+      "aadhaar": "987654321098",
+      "address": "Nizampatnam, Guntur",
+      "passwordHash": "password123",
+      "preferredLanguage": "te",
+      "createdAt": "2026-06-02T10:00:00.000Z"
+    },
+    {
+      "id": "cit-3",
+      "fullName": "Sita Maha Lakshmi",
+      "email": "sita@gmail.com",
+      "mobile": "9123456789",
+      "aadhaar": "555566667777",
+      "address": "Jonnalagadda Village, Guntur",
+      "passwordHash": "password123",
+      "preferredLanguage": "en",
+      "createdAt": "2026-06-03T11:15:00.000Z"
+    }
+  ],
+  "officers": [
+    {
+      "id": "off-vro",
+      "fullName": "Srinivas Rao",
+      "officerId": "VRO567",
+      "designation": "VRO",
+      "department": "Revenue Department",
+      "officeLocation": "Venkatapuram Village Office",
+      "email": "srinivas.vro@gov.in",
+      "mobile": "9848022111",
+      "passwordHash": "officer123",
+      "createdAt": "2026-06-01T09:00:00.000Z"
+    },
+    {
+      "id": "off-mro",
+      "fullName": "Rama Devi",
+      "officerId": "MRO890",
+      "designation": "MRO",
+      "department": "Revenue Department",
+      "officeLocation": "Mandal Tahsildar Office, Guntur",
+      "email": "ramadevi.mro@gov.in",
+      "mobile": "9848033222",
+      "passwordHash": "officer123",
+      "createdAt": "2026-06-01T09:05:00.000Z"
+    },
+    {
+      "id": "off-rdo",
+      "fullName": "Anwar Basha",
+      "officerId": "RDO345",
+      "designation": "RDO",
+      "department": "Revenue Division",
+      "officeLocation": "RDO Office, Tenali",
+      "email": "anwar.rdo@gov.in",
+      "mobile": "9848044333",
+      "passwordHash": "officer123",
+      "createdAt": "2026-06-01T09:10:00.000Z"
+    },
+    {
+      "id": "off-dro",
+      "fullName": "Chandra Shekar",
+      "officerId": "DRO123",
+      "designation": "DRO",
+      "department": "District Administration",
+      "officeLocation": "District Collectorate, Guntur",
+      "email": "chandra.dro@gov.in",
+      "mobile": "9848055444",
+      "passwordHash": "officer123",
+      "createdAt": "2026-06-01T09:15:00.000Z"
+    },
+    {
+      "id": "off-collector",
+      "fullName": "K. Prasanna IAS",
+      "officerId": "COLLECTOR001",
+      "designation": "Collector",
+      "department": "District Administration",
+      "officeLocation": "District Collectorate, Guntur",
+      "email": "collector.guntur@gov.in",
+      "mobile": "9999999999",
+      "passwordHash": "officer123",
+      "createdAt": "2026-06-01T09:20:00.000Z"
+    }
+  ],
+  "complaints": [
+    {
+      "id": "comp-1",
+      "complaintNo": "COMP-459201",
+      "citizenId": "cit-1",
+      "citizenName": "Kalyan Kumar",
+      "citizenMobile": "9440123456",
+      "citizenEmail": "kalyan@gmail.com",
+      "filedBy": "cit-1",
+      "filedByName": "Kalyan Kumar",
+      "filedByRole": "citizen",
+      "title": "Mutation Certificate Delay for Survey No 452/B",
+      "description": "My agricultural field division mutation certificate application has been pending at the tahsil office desk for over 45 days. Requesting official correction.",
+      "category": "Mutation Delays",
+      "priority": "high",
+      "status": "pending",
+      "location": "Brodipet Guntur",
+      "district": "Guntur",
+      "mandal": "Guntur East",
+      "village": "Brodipet",
+      "surveyNumber": "452/B",
+      "landIssueType": "Mutation Delays",
+      "latitude": 16.3125,
+      "longitude": 80.4372,
+      "history": [
+        {
+          "id": "log-1",
+          "status": "pending",
+          "note": "Grievance registered in land revenue portal",
+          "updatedBy": "Kalyan Kumar",
+          "updatedById": "cit-1",
+          "timestamp": "2026-06-01T08:00:00.000Z"
+        }
+      ],
+      "createdAt": "2026-06-01T08:00:00.000Z",
+      "updatedAt": "2026-06-01T08:00:00.000Z"
+    },
+    {
+      "id": "comp-2",
+      "complaintNo": "COMP-892401",
+      "citizenId": "cit-1",
+      "citizenName": "Kalyan Kumar",
+      "citizenMobile": "9440123456",
+      "citizenEmail": "kalyan@gmail.com",
+      "filedBy": "cit-1",
+      "filedByName": "Kalyan Kumar",
+      "filedByRole": "citizen",
+      "title": "Illegal boundary wall encroachment on dry land plot",
+      "description": "A neighboring plot owner is constructing an illegal boundary line fence encroaching onto our land under survey number 108/A.",
+      "category": "Land boundary disputes",
+      "priority": "urgent",
+      "status": "assigned",
+      "assignedToId": "off-vro",
+      "assignedToName": "Srinivas Rao",
+      "assignedToDesignation": "VRO",
+      "location": "Venkatapuram Mandal Area",
+      "district": "Guntur",
+      "mandal": "Guntur East",
+      "village": "Venkatapuram",
+      "surveyNumber": "108/A",
+      "landIssueType": "Land boundary disputes",
+      "latitude": 16.2234,
+      "longitude": 80.4721,
+      "history": [
+        {
+          "id": "log-2a",
+          "status": "pending",
+          "note": "Grievance registered in land portal",
+          "updatedBy": "Kalyan Kumar",
+          "updatedById": "cit-1",
+          "timestamp": "2026-06-01T10:00:00.000Z"
+        },
+        {
+          "id": "log-2b",
+          "status": "assigned",
+          "note": "Assigned to Village Revenue Officer for prompt survey",
+          "updatedBy": "System Auto-Assign",
+          "updatedById": "system",
+          "timestamp": "2026-06-01T10:05:00.000Z"
+        }
+      ],
+      "createdAt": "2026-06-01T10:00:00.000Z",
+      "updatedAt": "2026-06-01T10:05:00.000Z"
+    },
+    {
+      "id": "comp-3",
+      "complaintNo": "COMP-312940",
+      "citizenId": "cit-1",
+      "citizenName": "Kalyan Kumar",
+      "citizenMobile": "9440123456",
+      "citizenEmail": "kalyan@gmail.com",
+      "filedBy": "cit-1",
+      "filedByName": "Kalyan Kumar",
+      "filedByRole": "citizen",
+      "title": "Pattadar Passbook fathers name spelling mismatch correction",
+      "description": "Our digital revenue passbooks contain a spelling error in my father's name as displayed in some Webland maps. Need verification.",
+      "category": "Record correction requests",
+      "priority": "medium",
+      "status": "in_progress",
+      "assignedToId": "off-mro",
+      "assignedToName": "Rama Devi",
+      "assignedToDesignation": "MRO",
+      "location": "Chinaravutla Tenali",
+      "district": "Guntur",
+      "mandal": "Tenali",
+      "village": "Chinaravutla",
+      "surveyNumber": "782/1",
+      "landIssueType": "Record correction requests",
+      "latitude": 16.2482,
+      "longitude": 80.6425,
+      "history": [
+        {
+          "id": "log-3a",
+          "status": "pending",
+          "note": "Grievance registered in land portal",
+          "updatedBy": "Kalyan Kumar",
+          "updatedById": "cit-1",
+          "timestamp": "2026-06-02T09:00:00.000Z"
+        },
+        {
+          "id": "log-3b",
+          "status": "in_progress",
+          "note": "Under verification matching with older manual record registers",
+          "updatedBy": "Rama Devi",
+          "updatedById": "off-mro",
+          "timestamp": "2026-06-02T14:30:00.000Z"
+        }
+      ],
+      "createdAt": "2026-06-02T09:00:00.000Z",
+      "updatedAt": "2026-06-02T14:30:00.000Z"
+    },
+    {
+      "id": "comp-4",
+      "complaintNo": "COMP-927164",
+      "citizenId": "cit-2",
+      "citizenName": "Venkata Ramanayya",
+      "citizenMobile": "9848123456",
+      "citizenEmail": "venkata@gmail.com",
+      "filedBy": "cit-2",
+      "filedByName": "Venkata Ramanayya",
+      "filedByRole": "citizen",
+      "title": "Encroachment on Common Gram Panchayat Path",
+      "description": "The local pathway used by agricultural tractors inside Nizampatnam village has been blocked by private fencing. Need a survey conducted immediately.",
+      "category": "Encroachments",
+      "priority": "high",
+      "status": "resolved",
+      "assignedToId": "off-mro",
+      "assignedToName": "Rama Devi",
+      "assignedToDesignation": "MRO",
+      "location": "Nizampatnam GP Road",
+      "district": "Guntur",
+      "mandal": "Nizampatnam",
+      "village": "Nizampatnam",
+      "surveyNumber": "214",
+      "landIssueType": "Encroachments",
+      "latitude": 15.9048,
+      "longitude": 80.6725,
+      "history": [
+        {
+          "id": "log-4a",
+          "status": "pending",
+          "note": "Grievance registered",
+          "updatedBy": "Venkata Ramanayya",
+          "updatedById": "cit-2",
+          "timestamp": "2026-06-02T10:00:00.000Z"
+        },
+        {
+          "id": "log-4b",
+          "status": "assigned",
+          "note": "Assigned to Mandal Revenue Officer",
+          "updatedBy": "System",
+          "updatedById": "system",
+          "timestamp": "2026-06-02T10:02:00.000Z"
+        },
+        {
+          "id": "log-4c",
+          "status": "resolved",
+          "note": "Path visited. Encroachment cleared under division level police protection. Agricultural passage restored.",
+          "updatedBy": "Rama Devi",
+          "updatedById": "off-mro",
+          "timestamp": "2026-06-05T16:00:00.000Z"
+        }
+      ],
+      "createdAt": "2026-06-02T10:00:00.000Z",
+      "updatedAt": "2026-06-05T16:00:00.000Z"
+    },
+    {
+      "id": "comp-5",
+      "complaintNo": "COMP-110022",
+      "citizenId": "cit-3",
+      "citizenName": "Sita Maha Lakshmi",
+      "citizenMobile": "9123456789",
+      "citizenEmail": "sita@gmail.com",
+      "filedBy": "cit-3",
+      "filedByName": "Sita Maha Lakshmi",
+      "filedByRole": "citizen",
+      "title": "Double Registration Fraud Attempt for Sy No 301",
+      "description": "Unknown parties are attempting to register survey number 301 land, which is belonging to our ancestors, with forged death certificate documents.",
+      "category": "Double Registrations",
+      "priority": "urgent",
+      "status": "rejected",
+      "assignedToId": "off-rdo",
+      "assignedToName": "Anwar Basha",
+      "assignedToDesignation": "RDO",
+      "location": "Jonnalagadda Village Office",
+      "district": "Guntur",
+      "mandal": "Guntur East",
+      "village": "Jonnalagadda",
+      "surveyNumber": "301",
+      "landIssueType": "Double Registrations",
+      "latitude": 16.3394,
+      "longitude": 80.3789,
+      "history": [
+        {
+          "id": "log-5a",
+          "status": "pending",
+          "note": "Grievance registered",
+          "updatedBy": "Sita Maha Lakshmi",
+          "updatedById": "cit-3",
+          "timestamp": "2026-06-03T11:15:00.000Z"
+        },
+        {
+          "id": "log-5b",
+          "status": "rejected",
+          "note": "Civil dispute currently pending in Hon Subordinate Court Tenali. Revenue administration cannot intervene while judicial decree is awaited.",
+          "updatedBy": "Anwar Basha",
+          "updatedById": "off-rdo",
+          "timestamp": "2026-06-06T10:00:00.000Z"
+        }
+      ],
+      "createdAt": "2026-06-03T11:15:00.000Z",
+      "updatedAt": "2026-06-06T10:00:00.000Z"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "not-1",
+      "userId": "cit-1",
+      "title": "Land Grievance Lodged Successfully",
+      "message": "Your mutation delay case has been registered with ID COMP-459201.",
+      "type": "created",
+      "complaintId": "comp-1",
+      "isRead": false,
+      "createdAt": "2026-06-01T08:00:00.000Z"
+    }
+  ]
+}
