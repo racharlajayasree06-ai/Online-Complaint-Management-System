@@ -2,6 +2,10 @@
 
 A full-stack **MERN** web application that digitizes the complaint registration and grievance resolution process. The system enables citizens to submit and track complaints while allowing government officers to efficiently manage, assign, and resolve grievances through a secure role-based platform.
 
+## 📸 Login Page
+
+![login page](login_page.png)
+
 ---
 
 ## 📌 Features
@@ -61,19 +65,6 @@ npm run dev
 ## 🌐 Live Demo
 
 https://prajavani-grievance-portal869.ai.studio/
-
----
-
-## 📸 Screenshots
-
-Add screenshots of:
-
-* Login Page
-* Citizen Dashboard
-* Complaint Registration
-* Officer Dashboard
-* Complaint Tracking
-
 
 ---
 
