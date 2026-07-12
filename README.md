@@ -1,20 +1,94 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# 🚀 Prajavani – Online Complaint Management System
 
-# Run and deploy your AI Studio app
+A full-stack **MERN** web application that digitizes the complaint registration and grievance resolution process. The system enables citizens to submit and track complaints while allowing government officers to efficiently manage, assign, and resolve grievances through a secure role-based platform.
 
-This contains everything you need to run your app locally.
+---
 
-View your app in AI Studio: https://ai.studio/apps/b19d8c75-3e47-44b7-9783-7440e3f9288b
+## 📌 Features
 
-## Run Locally
+* 🔐 Secure Citizen & Officer Authentication
+* 📝 Online Complaint Registration
+* 📊 Real-Time Complaint Status Tracking
+* 👨‍💼 Officer Dashboard for Complaint Management
+* 🔄 Complaint Assignment & Status Updates
+* 🔔 Real-Time Notifications
+* 📱 Responsive User Interface
+* 🛡️ Role-Based Access Control
 
-**Prerequisites:**  Node.js
+---
+
+## 🛠️ Tech Stack
+
+| Category       | Technologies               |
+| -------------- | -------------------------- |
+| Frontend       | React.js, Bootstrap, Axios |
+| Backend        | Node.js, Express.js        |
+| Database       | MongoDB,SQL                   |
+| Authentication | Token-Based Authentication |
+| Tools          | Git, GitHub, VS Code       |
+
+---
+
+## 📂 Project Structure
+
+```text
+Prajavani-Grievance-Portal/
+├── client/
+│   ├── src/
+│   └── public/
+├── server/
+│   ├── src/
+│   └── db/
+├── README.md
+```
+
+---
+
+## ⚙️ Installation
+
+```bash
+git clone https://github.com/racharlajayasree06-ai/Online-Complaint-Management-System.git
+
+cd Online-Complaint-Management-System
+
+npm install
+
+npm run dev
+```
+
+---
+
+## 🌐 Live Demo
+
+https://prajavani-grievance-portal869.ai.studio/
+
+---
+
+## 📸 Screenshots
+
+Add screenshots of:
+
+* Login Page
+* Citizen Dashboard
+* Complaint Registration
+* Officer Dashboard
+* Complaint Tracking
 
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+---
+
+## 🎯 Future Enhancements
+
+* Mobile Application
+* AI-Based Complaint Classification
+* GIS Location Tracking
+* SMS & Email Notifications
+* Analytics Dashboard
+* Cloud Deployment
+
+
+---
+
+## ⭐ Support
+
+If you found this project useful, consider giving it a ⭐ on GitHub.
